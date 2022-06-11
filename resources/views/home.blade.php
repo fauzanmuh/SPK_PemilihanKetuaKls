@@ -26,19 +26,22 @@
                     <div class="card">
                         <div class="card-header border-0">
                             <div class="d-flex justify-content-between">
-                                <h3 class="card-title">Welcome to Decision Support System :)</h3>
+                                <h3 class="card-title">Selamat Datang</h3>
                             </div>
                         </div>
                         <div class="card-body">
-                            This system can help someone to make decisions using Simple Additive Weighting Algorithm.
-                            <br> How to use:
+                            Sistem Pemilihan Ketua Kelas TI-3G Menggunakan Metode n Simple Additive Weighting (SAW)
+                            <br><br> Cara Menggunakan Sistem:
                             <ol>
-                                <li>Go to the Criteria & Weight menu to add decision criteria and its weight (the
-                                    importance of criteria).</li>
-                                <li>Then go to the Criteria Rating menu to give rating option for each criterion.</li>
-                                <li>Use the Alternative menu to add alternative (candidate) and its rating.</li>
-                                <li>Check the Rank menu to view the result, click the Total column on the table to sort
-                                    it by its total value.</li>
+                                <li>Menentukan alternatif dan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan 
+                                    keputusan.</li>
+                                <li>Menentukan rating kecocokan setiap alternatif pada setiap kriteria (X).</li>
+                                <li>Membuat matriks keputusan berdasarkan kriteria.</li>
+                                <li>Kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuaikan dengan 
+                                    jenis atribut (atribut Benefit ataupun atribut Cost) sehingga diperoleh matriks ternormalisasi R.</li>
+                                <li>Hasil akhir diperoleh dari proses perankingan yaitu penjumlahan dari perkalian matriks 
+                                    ternormalisasi R dengan vektor bobot sehingga diperoleh nilai terbesar yang dipilih sebagai 
+                                    alternatif terbaik sebagai solusi.</li>
                             </ol>
                         </div>
                     </div>
