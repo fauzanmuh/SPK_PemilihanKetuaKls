@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Edit alternative</h1>
+                    <h1 class="m-0">Edit alternatif</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                 </div><!-- /.col -->
@@ -38,7 +38,7 @@
                                 @csrf
                                 @method('PUT')
                                 <div class="form-group">
-                                    <label for="name">Name :</label>
+                                    <label for="name">Nama :</label>
                                     <div class="input-group">
                                         <input id="name" type="text" class="form-control" placeholder="e.g. Speed"
                                             name="name" value="{{ $alternative->name }}" disabled>

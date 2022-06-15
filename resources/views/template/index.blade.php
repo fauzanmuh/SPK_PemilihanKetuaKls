@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SAW</title>
+    <title>DSS SAW</title>
 
-    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('assets/icon/apple-touch-icon.png')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/icon/favicon-32x32.png')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/icon/favicon-16x16.png')}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('assets/icon/Politeknik Negeri Malang.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/icon/Politeknik Negeri Malang.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/icon/Politeknik Negeri Malang.png')}}">
     <link rel="manifest" href="{{asset('/assets/icon/site.webmanifest')}}">
     <link rel="mask-icon" href="{{asset('assets/icon/safari-pinned-tab.svg')}}" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">

@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Add new alternative</h1>
+                    <h1 class="m-0">Tambah alternatif</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                 </div><!-- /.col -->
@@ -37,7 +37,7 @@
                             <form action="{{route('alternatives.store')}}" method="POST">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="name">Name :</label>
+                                    <label for="name">Nama :</label>
                                     <div class="input-group">
                                         <input id="name" type="text" class="form-control"
                                             placeholder="Someone or Something" name="name" required>

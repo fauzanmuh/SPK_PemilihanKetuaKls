@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Normalization</h1>
+                    <h1 class="m-0">Normalisasi Matriks</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
 
@@ -29,7 +29,7 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Alternative</th>
+                                        <th>Alternatif</th>
                                         @foreach ($criteriaweights as $c)
                                         <th>{{$c->name}}</th>
                                         @endforeach

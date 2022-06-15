@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Edit criteria rating</h1>
+                    <h1 class="m-0">Edit Kriteria Rating</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                 </div><!-- /.col -->
@@ -45,9 +45,9 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="description">Description :</label>
+                                    <label for="description">Deskripsi :</label>
                                     <div class="input-group">
-                                        <input id="description" type="text" class="form-control" placeholder="e.g. Good"
+                                        <input id="description" type="text" class="form-control" placeholder="e.g. Bagus"
                                             name="description" value="{{ $criteriarating->description }}" required>
                                     </div>
                                 </div>

@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Add new criteria</h1>
+                    <h1 class="m-0">Tambah Kriteria</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                 </div><!-- /.col -->
@@ -37,30 +37,30 @@
                             <form action="{{route('criteriaweights.store')}}" method="POST">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="name">Name :</label>
+                                    <label for="name">Nama :</label>
                                     <div class="input-group">
-                                        <input id="name" type="text" class="form-control" placeholder="e.g. Speed"
+                                        <input id="name" type="text" class="form-control" placeholder="e.g. IPK"
                                             name="name" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="type">Type :</label>
+                                    <label for="type">Atribut :</label>
                                     <select class="form-control" id="type" name="type">
                                         <option value="benefit">Benefit</option>
                                         <option value="cost">Cost</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="weight">Weight :</label>
+                                    <label for="weight">Bobot :</label>
                                     <div class="input-group">
                                         <input id="weight" type="text" class="form-control" placeholder="e.g. 2.5"
                                             name="weight" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="description">Description :</label>
+                                    <label for="description">Deskripsi :</label>
                                     <div class="input-group">
-                                        <input id="description" type="text" class="form-control" placeholder="e.g. Good"
+                                        <input id="description" type="text" class="form-control" placeholder="e.g. Bagus"
                                             name="description" required>
                                     </div>
                                 </div>

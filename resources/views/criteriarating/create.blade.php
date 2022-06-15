@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Add new criteria</h1>
+                    <h1 class="m-0">Tambah Kriteria</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                 </div><!-- /.col -->
@@ -37,7 +37,7 @@
                             <form action="{{route('criteriaratings.store')}}" method="POST">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="criteria">Criteria :</label>
+                                    <label for="criteria">Kriteria :</label>
                                     <select class="form-control" id="criteria" name="criteria_id">
                                         @foreach ($criteriaweight as $c)
                                     <option value="{{ $c->id }}">{{ $c->name }}</option>
@@ -52,7 +52,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="description">Description :</label>
+                                    <label for="description">Deskripsi :</label>
                                     <div class="input-group">
                                         <input id="description" type="text" class="form-control" placeholder="e.g. Good"
                                             name="description" required>

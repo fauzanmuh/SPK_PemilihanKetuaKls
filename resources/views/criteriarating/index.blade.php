@@ -41,7 +41,7 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Criteria ID</th>
+                                        <th>Kriteria ID</th>
                                         <th>Rating</th>
                                         <th>Deskripsi</th>
                                         <th>Action</th>
