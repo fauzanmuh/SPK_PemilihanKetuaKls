@@ -33,15 +33,16 @@
                             Sistem Pemilihan Ketua Kelas TI-3G Menggunakan Metode n Simple Additive Weighting (SAW)
                             <br><br> Cara Menggunakan Sistem:
                             <ol>
-                                <li>Menentukan alternatif dan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan 
-                                    keputusan.</li>
-                                <li>Menentukan rating kecocokan setiap alternatif pada setiap kriteria (X).</li>
-                                <li>Membuat matriks keputusan berdasarkan kriteria.</li>
-                                <li>Kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuaikan dengan 
-                                    jenis atribut (atribut Benefit ataupun atribut Cost) sehingga diperoleh matriks ternormalisasi R.</li>
+                                <li>Tentukan kriteria-kriteria dan bobot yang akan dijadikan acuan dalam pengambilan 
+                                    keputusan, kemudian isi pada halaman Kriteria & Bobot.</li>
+                                <li>Tentukan rating kecocokan setiap alternatif pada setiap kriteria, kemudian isi pada halaman Rating Kriteria.</li>
+                                <li>Tentukan Alternatif yang yang akan digunakan dan isi nilainya berdasarkan data yang telah didapat, kemudian isi pada halaman Alternatif & Skor.</li>
+                                <li>Sistem otomatis membuat matriks keputusan berdasarkan kriteria, pada halaman Matriks Keputusan.</li>
+                                <li>Sistem kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuaikan dengan 
+                                    jenis atribut (atribut Benefit ataupun atribut Cost) sehingga diperoleh matriks ternormalisasi, pada halaman Normalisasi.</li>
                                 <li>Hasil akhir diperoleh dari proses perankingan yaitu penjumlahan dari perkalian matriks 
-                                    ternormalisasi R dengan vektor bobot sehingga diperoleh nilai terbesar yang dipilih sebagai 
-                                    alternatif terbaik sebagai solusi.</li>
+                                    ternormalisasi dengan vektor bobot sehingga diperoleh nilai terbesar yang dipilih sebagai 
+                                    alternatif terbaik sebagai solusi, pada halaman Rank.</li>
                             </ol>
                         </div>
                     </div>

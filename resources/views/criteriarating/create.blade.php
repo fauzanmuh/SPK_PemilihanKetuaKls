@@ -54,7 +54,7 @@
                                 <div class="form-group">
                                     <label for="description">Deskripsi :</label>
                                     <div class="input-group">
-                                        <input id="description" type="text" class="form-control" placeholder="e.g. Good"
+                                        <input id="description" type="text" class="form-control" placeholder="e.g. Bagus"
                                             name="description" required>
                                     </div>
                                 </div>

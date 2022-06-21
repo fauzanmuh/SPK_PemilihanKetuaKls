@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DSS SAW</title>
+    <title>PKK SAW</title>
 
     <link rel="apple-touch-icon" sizes="144x144" href="{{asset('assets/icon/Politeknik Negeri Malang.png')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/icon/Politeknik Negeri Malang.png')}}">
